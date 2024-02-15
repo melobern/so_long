@@ -12,7 +12,7 @@
 
 CC = cc
 NAME = so_long
-FLAGS = -lX11 -lXext #-lGL
+FLAGS = -lX11 -lXext -lm -lz #-lGL lie avec openGL --> voir comment le faire avec le dossier donné
 CFLAGS = -Wall -Wextra -Werror -MMD -MP
 MKDIR = mkdir -p
 RMDIR = rm -rf
