@@ -1,3 +1,0 @@
-/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/cmake-build-debug/CMakeFiles/so_long.dir
-/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/cmake-build-debug/CMakeFiles/edit_cache.dir
-/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/cmake-build-debug/CMakeFiles/rebuild_cache.dir
