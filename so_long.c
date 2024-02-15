@@ -10,16 +10,28 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "minilibx-linux/mlx.h"
+#include "mlx.h"
+#include "so_long.h"
+
+typedef struct	s_data {
+    void	*img;
+    char	*addr;
+    int		bits_per_pixel;
+    int		line_length;
+    int		endian;
+}				t_data;
 
 int main(void)
 {
-    void    *mlx_connection;
+    void    *mlx;
     void    *mlx_window;
+    t_data  img;
 
-    mlx_connection = mlx_init();
-    mlx_window = mlx_new_window(mlx_connection, 500, 500,"my first window");
-    mlx_pixel_put(mlx_connection, mlx_window, 250, 255, 0xff0000);
-    mlx_loop(mlx_connection);
+    mlx = mlx_init();
+    img.img = mlx_new_image(mlx, 100, 70);
+    img.addr = mlx_get_data_addr(img.img, &img.bits_per_pixel, &img.line_length, &img.endian);
+    mlx_window = mlx_new_window(mlx, 500, 500,"my first window");
+    mlx_pixel_put(mlx, mlx_window, 250, 255, 0xff0000);
+    mlx_loop(mlx);
     return (0);
 }
