@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 10:37:40 by mbernard          #+#    #+#             */
-/*   Updated: 2024/02/28 18:17:37 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/02/29 08:53:15 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,26 +19,27 @@ void	ft_perror(void)
 }
 
 void	no_such_file_error(void)
-{
-	write(2, "Error : No such file in directory\n", 34);
+{	
+	write(2, "Error\nNo such file in directory\n", 32);
 	exit(EXIT_FAILURE);
 }
 
 void	malloc_error(void)
 {
-	write(2, "Error : Mallor error\n", 21);
+	write(2, "Error\nMallor error\n", 19);
 	exit(EXIT_FAILURE);
 }
 
 void	input_error(void)
 {
-	write(2, "Error : No file.ber given\n", 26);
+	write(2, "Error\nNo file.ber given\n", 24);
 	exit(EXIT_FAILURE);
 }
 
-void	map_error(char **map)
+void	map_error(char **map, char **copy)
 {
 	ft_free_tab(map);
-	write(2, "Error : invalid map\n", 20);
+	ft_free_tab(copy);
+	write(2, "Error\nInvalid map\n", 18);
 	exit(EXIT_FAILURE);
 }

@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/14 14:10:35 by mbernard          #+#    #+#             */
-/*   Updated: 2024/02/28 18:27:47 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/02/29 08:30:07 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ int	close_window(t_data *img)
 	mlx_destroy_display(img->mlx);
 	free(img->mlx);
 	ft_free_tab(img->map.grid);
+	ft_free_tab(img->map.copy);
 	exit(1);
 	return (0);
 }
@@ -60,17 +61,23 @@ int	main(int ac, char **av)
 {
 	t_data	img;
 	int		x;
-
+	
 	if (ac < 2 || !ends_by_ber(av[1]))
 		input_error();
 	img.map.status = 0;
 	define_map(&img.map, av[1]);
 	if (img.map.status == 0)
-		map_error(img.map.grid);
+		map_error(img.map.grid, img.map.copy);
 	x = 0;
 	while (img.map.grid[x])
 	{
 		printf("%s\n", img.map.grid[x]);
+		x++;
+	}
+		x = 0;
+	while (img.map.copy[x])
+	{
+		printf("%s\n", img.map.copy[x]);
 		x++;
 	}
 	img.mlx = mlx_init();
