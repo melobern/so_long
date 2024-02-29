@@ -35,26 +35,30 @@ static size_t	get_map_len(char *ber)
 
 static bool	map_contains_0epc(char *tmp_map)
 {
-	size_t	door_exit;
+	size_t	door;
+	size_t	player;
+	size_t	o;
+	size_t	c;
 	size_t	x;
 
-	door_exit = 0;
+	door = 0;
+	player = 0;
 	x = 0;
-	if (ft_strchr(tmp_map, '0') == 0)
-		return (0);
-	if (ft_strchr(tmp_map, 'P') == 0)
-		return (0);
-	if (ft_strchr(tmp_map, 'C') == 0)
-		return (0);
-	while (tmp_map[x] && door_exit < 2)
+	o = 0;
+	c = 0;
+	while (tmp_map[x] && door < 2 && player < 2)
 	{
+		if (tmp_map[x] == 'C')
+			c++;
+		if (tmp_map[x] == '0')
+			o++;
 		if (tmp_map[x] == 'E')
-			door_exit++;
+			door++;
+		if (tmp_map[x] == 'P')
+			player++;
 		x++;
 	}
-	if (door_exit != 1)
-		return (0);
-	return (1);
+	return ((door == 1 && player == 1 && o != 0 && c != 0));
 }
 
 static bool	check_lines(char **map, size_t x, size_t rows)
@@ -96,31 +100,46 @@ static bool	check_walls_and_center(char **map, size_t cols, size_t rows)
 	return (1);
 }
 
-static void	check_map(t_map **map, char *tmp_map)
-// DON'T FORGET TO CHANGE THIS LOL
+static bool	check_map(t_map *map, char *tmp_map)
 {
 	size_t	x;
 	size_t	cols;
 
 	x = 0;
-	if (!(*map)->grid[3])
-		return ;
-	cols = ft_strlen((*map)->grid[0]);
-	while ((*map)->grid[x + 1])
+	if (!map->grid[3])
+		return (0);
+	cols = ft_strlen(map->grid[0]);
+	while (map->grid[x + 1])
 	{
-		if (ft_strlen((*map)->grid[x + 1]) != cols)
-			return ;
+		if (ft_strlen(map->grid[x + 1]) != cols)
+			return (0);	
 		x++;
 	}
-	if (!check_walls_and_center((*map)->grid, cols, x))
-		return ;
+	if (!check_walls_and_center(map->grid, cols, x))
+		return (0);
 	if (!map_contains_0epc(tmp_map))
-		return ;
-	(*map)->cols = cols;
-	(*map)->rows = x;
-	(*map)->status = 1;
+		return (0);
+	map->cols = cols;
+	map->rows = x;
+	map->status = 1;
+	return (1);
 }
 
+void	trigger_checks(t_map *map, char *tmp_map)
+{
+		(*map).grid = ft_split(tmp_map, '\n');
+		(*map).copy = ft_split(tmp_map, '\n');
+		if (check_map(map, tmp_map) == 0)
+		{
+			free(tmp_map);
+			map_error(map->grid, map->copy);
+		}
+		if (check_path(*map) == 0)
+		{
+			free(tmp_map);
+			map_error(map->grid, map->copy);
+		}
+}
 void	define_map(t_map *map, char *ber)
 {
 	int		fd;
@@ -143,8 +162,7 @@ void	define_map(t_map *map, char *ber)
 	if (size > 0)
 	{
 		tmp_map[size] = '\0';
-		map->grid = ft_split(tmp_map, '\n');
-		check_map(&map, tmp_map);
+		trigger_checks(map, tmp_map);
 	}
 	free(tmp_map);
 	close(fd);

@@ -1,0 +1,482 @@
+[
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_atoi.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_atoi.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_atoi.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_atoi.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_bzero.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_bzero.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_bzero.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_bzero.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_calloc.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_calloc.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_calloc.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_calloc.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_isalnum.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_isalnum.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_isalnum.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_isalnum.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_isalpha.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_isalpha.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_isalpha.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_isalpha.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_isascii.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_isascii.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_isascii.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_isascii.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_isdigit.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_isdigit.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_isdigit.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_isdigit.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_isprint.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_isprint.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_isprint.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_isprint.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_itoa.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_itoa.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_itoa.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_itoa.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_lstadd_back_bonus.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstadd_back_bonus.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstadd_back_bonus.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_lstadd_back_bonus.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_lstadd_front_bonus.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstadd_front_bonus.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstadd_front_bonus.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_lstadd_front_bonus.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_lstclear_bonus.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstclear_bonus.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstclear_bonus.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_lstclear_bonus.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_lstdelone_bonus.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstdelone_bonus.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstdelone_bonus.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_lstdelone_bonus.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_lstiter_bonus.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstiter_bonus.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstiter_bonus.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_lstiter_bonus.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_lstlast_bonus.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstlast_bonus.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstlast_bonus.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_lstlast_bonus.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_lstmap_bonus.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstmap_bonus.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstmap_bonus.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_lstmap_bonus.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_lstnew_bonus.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstnew_bonus.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstnew_bonus.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_lstnew_bonus.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_lstsize_bonus.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstsize_bonus.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_lstsize_bonus.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_lstsize_bonus.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_memchr.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_memchr.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_memchr.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_memchr.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_memcmp.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_memcmp.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_memcmp.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_memcmp.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_memcpy.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_memcpy.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_memcpy.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_memcpy.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_memmove.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_memmove.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_memmove.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_memmove.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_memset.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_memset.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_memset.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_memset.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_putchar_fd.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_putchar_fd.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_putchar_fd.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_putchar_fd.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_putendl_fd.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_putendl_fd.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_putendl_fd.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_putendl_fd.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_putnbr_fd.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_putnbr_fd.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_putnbr_fd.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_putnbr_fd.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_putstr_fd.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_putstr_fd.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_putstr_fd.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_putstr_fd.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_split.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_split.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_split.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_split.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strchr.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strchr.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strchr.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strchr.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strdup.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strdup.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strdup.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strdup.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_striteri.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_striteri.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_striteri.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_striteri.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strjoin.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strjoin.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strjoin.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strjoin.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strlcat.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strlcat.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strlcat.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strlcat.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strlcpy.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strlcpy.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strlcpy.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strlcpy.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strlen.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strlen.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strlen.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strlen.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strmapi.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strmapi.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strmapi.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strmapi.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strncmp.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strncmp.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strncmp.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strncmp.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strnstr.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strnstr.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strnstr.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strnstr.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strrchr.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strrchr.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strrchr.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strrchr.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_strtrim.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strtrim.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_strtrim.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_strtrim.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_substr.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_substr.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_substr.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_substr.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_tolower.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_tolower.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_tolower.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_tolower.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/Libft/ft_toupper.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_toupper.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft/ft_toupper.c",
+  "output": "CMakeFiles/so_long.dir/Libft/ft_toupper.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_clear_window.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_clear_window.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_clear_window.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_clear_window.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_destroy_display.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_destroy_display.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_destroy_display.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_destroy_display.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_destroy_image.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_destroy_image.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_destroy_image.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_destroy_image.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_destroy_window.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_destroy_window.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_destroy_window.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_destroy_window.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_expose_hook.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_expose_hook.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_expose_hook.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_expose_hook.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_ext_randr.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_ext_randr.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_ext_randr.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_ext_randr.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_flush_event.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_flush_event.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_flush_event.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_flush_event.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_get_color_value.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_get_color_value.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_get_color_value.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_get_color_value.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_get_data_addr.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_get_data_addr.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_get_data_addr.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_get_data_addr.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_hook.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_hook.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_hook.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_hook.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_init.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_init.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_init.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_init.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_int_anti_resize_win.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_anti_resize_win.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_anti_resize_win.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_int_anti_resize_win.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_int_do_nothing.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_do_nothing.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_do_nothing.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_int_do_nothing.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_int_get_visual.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_get_visual.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_get_visual.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_int_get_visual.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_int_param_event.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_param_event.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_param_event.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_int_param_event.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_int_set_win_event_mask.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_set_win_event_mask.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_set_win_event_mask.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_int_set_win_event_mask.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_int_str_to_wordtab.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_str_to_wordtab.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_str_to_wordtab.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_int_str_to_wordtab.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_int_wait_first_expose.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_wait_first_expose.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_int_wait_first_expose.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_int_wait_first_expose.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_key_hook.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_key_hook.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_key_hook.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_key_hook.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_lib_xpm.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_lib_xpm.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_lib_xpm.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_lib_xpm.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_loop.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_loop.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_loop.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_loop.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_loop_hook.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_loop_hook.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_loop_hook.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_loop_hook.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_mouse.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_mouse.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_mouse.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_mouse.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_mouse_hook.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_mouse_hook.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_mouse_hook.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_mouse_hook.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_new_image.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_new_image.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_new_image.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_new_image.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_new_window.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_new_window.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_new_window.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_new_window.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_pixel_put.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_pixel_put.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_pixel_put.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_pixel_put.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_put_image_to_window.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_put_image_to_window.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_put_image_to_window.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_put_image_to_window.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_rgb.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_rgb.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_rgb.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_rgb.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_screen_size.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_screen_size.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_screen_size.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_screen_size.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_set_font.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_set_font.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_set_font.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_set_font.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_string_put.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_string_put.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_string_put.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_string_put.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/minilibx-linux/mlx_xpm.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_xpm.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux/mlx_xpm.c",
+  "output": "CMakeFiles/so_long.dir/minilibx-linux/mlx_xpm.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/errors.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/errors.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/errors.c",
+  "output": "CMakeFiles/so_long.dir/errors.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/map.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/map.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/map.c",
+  "output": "CMakeFiles/so_long.dir/map.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/so_long.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/so_long.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/so_long.c",
+  "output": "CMakeFiles/so_long.dir/so_long.c.o"
+},
+{
+  "directory": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/build",
+  "command": "/usr/bin/gcc -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/header -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/Libft -I/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/minilibx-linux -g -std=gnu11 -o CMakeFiles/so_long.dir/free.c.o -c /sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/free.c",
+  "file": "/sgoinfre/goinfre/Perso/mbernard/Document_SGOINFRE/My_Git/so_long/free.c",
+  "output": "CMakeFiles/so_long.dir/free.c.o"
+}
+]
