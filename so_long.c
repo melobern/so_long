@@ -6,13 +6,17 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/14 14:10:35 by mbernard          #+#    #+#             */
-/*   Updated: 2024/03/01 17:54:43 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/01 19:31:17 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
  * Convertir image en xpm pour que ca s affiche correctement
  *
+ * verifier qu'il n y a pas deux \n a la suite : si \n et x + 1 == \n...
+ * voir les cartes utilisees par chstein
+ * hook tout court pour les controles afin de pouvoir rester appuye sur la touche sans que ca ne pose probleme
+ * refresh la map a chaque mouvement
  */
 #include "so_long.h"
 
