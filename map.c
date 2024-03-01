@@ -33,23 +33,22 @@ static size_t	get_map_len(char *ber)
 	return (size);
 }
 
-static bool	map_contains_0epc(char *tmp_map)
+static bool	map_contains_0epc(t_map *map, char *tmp_map)
 {
 	size_t	door;
 	size_t	player;
 	size_t	o;
-	size_t	c;
 	size_t	x;
 
 	door = 0;
 	player = 0;
 	x = 0;
 	o = 0;
-	c = 0;
+	map->coins = 0;
 	while (tmp_map[x] && door < 2 && player < 2)
 	{
 		if (tmp_map[x] == 'C')
-			c++;
+			map->coins++;
 		if (tmp_map[x] == '0')
 			o++;
 		if (tmp_map[x] == 'E')
@@ -58,7 +57,7 @@ static bool	map_contains_0epc(char *tmp_map)
 			player++;
 		x++;
 	}
-	return ((door == 1 && player == 1 && o != 0 && c != 0));
+	return ((door == 1 && player == 1 && o != 0 && map->coins != 0));
 }
 
 static bool	check_lines(char **map, size_t x, size_t rows)
@@ -117,7 +116,7 @@ static bool	check_map(t_map *map, char *tmp_map)
 	}
 	if (!check_walls_and_center(map->grid, cols, x))
 		return (0);
-	if (!map_contains_0epc(tmp_map))
+	if (!map_contains_0epc(map, tmp_map))
 		return (0);
 	map->cols = cols;
 	map->rows = x;
@@ -134,7 +133,7 @@ void	trigger_checks(t_map *map, char *tmp_map)
 			free(tmp_map);
 			map_error(map->grid, map->copy);
 		}
-		if (check_path(*map) == 0)
+		if (check_path(map) == 0)
 		{
 			free(tmp_map);
 			map_error(map->grid, map->copy);

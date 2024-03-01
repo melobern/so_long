@@ -12,12 +12,6 @@
 
 #include "so_long.h"
 
-void	ft_perror(void)
-{
-	write(2, "Error\n", 6);
-	exit(EXIT_FAILURE);
-}
-
 void	no_such_file_error(void)
 {	
 	write(2, "Error\nNo such file in directory\n", 32);
@@ -43,3 +37,11 @@ void	map_error(char **map, char **copy)
 	write(2, "Error\nInvalid map\n", 18);
 	exit(EXIT_FAILURE);
 }
+
+void	unknown_key_error(t_data *img)
+{
+        write(2, "Error\n", 6);
+        write(2, "Unknown key\n", 12);
+        close_window(img);
+}
+

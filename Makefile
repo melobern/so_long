@@ -20,7 +20,7 @@ RMDIR = rm -rf
 # ---------------------------------- Sources --------------------------------- #
 vpath %c ./
 
-SRCS = so_long	errors free	utils	map	check_map	fill_paths
+SRCS = so_long	errors free	utils	map	check_map	fill_paths	moves
 # ---------------------------------- Repertories ----------------------------- #
 HEADER_DIR = header/
 OBJS_DIR = .objs/
