@@ -94,23 +94,22 @@ void	search_fill_free_path(t_map map, size_t rows, size_t cols)
 	search_lost_p(map);
 }
 
-bool	check_path(t_map map)
+bool	check_path(t_map *map)
 {
-	t_player	player;
 	size_t		x;
 	size_t		y;
 
-	locate_player(map.copy, &player);
-	fill_paths(map, player.x, player.y);
-	search_fill_free_path(map, map.rows, map.cols);
+	locate_player(map->copy, &map->player);
+	fill_paths(*map, map->player.x, map->player.y);
+	search_fill_free_path(*map, map->rows, map->cols);
 	x = 1;
 	y = 1;
-	while (x < map.rows)
+	while (x < map->rows)
 	{
 		y = 1;
-		while (y < map.cols)
+		while (y < map->cols)
 		{
-			if (map.copy[x][y] == 'C' || map.copy[x][y] == 'E')
+			if (map->copy[x][y] == 'C' || map->copy[x][y] == 'E')
 				return (0);
 			y++;
 		}
