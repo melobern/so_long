@@ -17,6 +17,7 @@ checker_linux
 ## Mlx related
 Makefile.gen
 /test/mlx-test
+memo
 
 ## Editor
 .vscode/*

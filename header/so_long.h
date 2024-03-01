@@ -20,11 +20,11 @@
 # include <stdbool.h>
 # include <stdio.h> //TO SUPPREESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
 
-# define EMPTY 0
-# define WALL 1
-# define PLAYER P
-# define COLLECTIBLE C
-# define EXIT E
+# define EMPTY '0'
+# define WALL '1'
+# define PLAYER 'P'
+# define COLLECTIBLE 'C'
+# define EXIT 'E'
 
 typedef struct s_map
 {
@@ -69,7 +69,8 @@ bool		ft_search_char(char letter, char *charset);
 ////////     				 MAP			////////
 ////////////////////////////////////////////////////////////////////////
 void		define_map(t_map *map, char *ber);
-bool	check_path(t_map map);
+void	        fill_paths(t_map map, size_t x, size_t y);
+bool	        check_path(t_map map);
 #endif
 
 /*
