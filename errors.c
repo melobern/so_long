@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 10:37:40 by mbernard          #+#    #+#             */
-/*   Updated: 2024/02/29 08:53:15 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/01 23:02:19 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,11 +37,3 @@ void	map_error(char **map, char **copy)
 	write(2, "Error\nInvalid map\n", 18);
 	exit(EXIT_FAILURE);
 }
-
-void	unknown_key_error(t_data *img)
-{
-        write(2, "Error\n", 6);
-        write(2, "Unknown key\n", 12);
-        close_window(img);
-}
-

@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/14 14:10:35 by mbernard          #+#    #+#             */
-/*   Updated: 2024/03/01 19:31:17 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/01 23:31:17 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,8 @@ void	init_images(t_data *img)
 	if (!img->empty || !img->wall || !img->coll || !img->exit || !img->up
 		|| !img->down || !img->left || !img->right)
 	{
-		write(2, "Error\nMallor error\n", 19);
+		ft_putstr_fd("Error\nMalloc error\n", 2);
+	//	write(2, "Error\nMallor error\n", 19);
 		close_window(img);
 	}
 }
@@ -124,14 +125,13 @@ int	key_hook(int keysym, t_data *img)
 		can_move = move_down(img);
 	else if (keysym == XK_D || keysym == XK_d)
 		can_move = move_right(img);
-	else
-		unknown_key_error(img);
 	if (can_move == 0)
 		return (0);
 	img->map.player.moves++;
 	ft_putstr_fd("Moves :", 1);
 	ft_put_pos_nbr_fd(img->map.player.moves, 1);
-	write(1, "\n", 1);
+	ft_putstr_fd("\n", 1);
+	//write(1, "\n", 1);
 	return (0);
 }
 
@@ -182,7 +182,7 @@ int	main(int ac, char **av)
 	img.mlx = mlx_init();
 	if (img.mlx == NULL)
 		return (1);
-	img.win = mlx_new_window(img.mlx, ((img.map.rows + 1) * 80), ((img.map.cols) * 80), "so_long");
+	img.win = mlx_new_window(img.mlx, ((img.map.cols) * 80), ((img.map.rows + 1) * 80), "so_long");
 	if (img.win == NULL)
 	{
 		mlx_destroy_display(img.mlx);
@@ -202,7 +202,7 @@ int	main(int ac, char **av)
 	close_window(&img);
 	// mlx_destroy_window(img.mlx, img.win);
 	// mlx_destroy_display(img.mlx);
-	//   mlx_destroy_image(mlx, &img);
-	free(img.mlx);
+	// mlx_destroy_image(mlx, &img);
+	//free(img.mlx);
 	return (0);
 }

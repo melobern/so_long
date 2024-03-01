@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/28 10:57:40 by mbernard          #+#    #+#             */
-/*   Updated: 2024/02/28 18:25:50 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/01 23:01:32 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,8 @@ static bool	map_contains_0epc(t_map *map, char *tmp_map)
 			door++;
 		if (tmp_map[x] == 'P')
 			player++;
+		if (tmp_map[x + 1] && tmp_map[x] == '\n' && tmp_map[x +1] == '\n')
+			return (0);
 		x++;
 	}
 	return ((door == 1 && player == 1 && o != 0 && map->coins != 0));
