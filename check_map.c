@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/28 18:48:53 by mbernard          #+#    #+#             */
-/*   Updated: 2024/02/28 19:00:46 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/01 12:54:18 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,65 +35,43 @@ static void	locate_player(char **map, t_player *player)
 	}
 }
 
-void	fill_down(t_map *map, size_t x, size_t y);
-void	fill_left(t_map *map, size_t x, size_t y);
-void	fill_right(t_map *map, size_t x, size_t y);
-
-void	fill_up(t_map *map, size_t x, size_t y)
+static bool	is_surrounded_by_zeros(char **copy, size_t x, size_t y)
 {
-	while ((*map).copy[x][y] != '1' && x != 0)
-	{
-		(*map).copy[x][y] = 'p';
-		if ((*map).copy[x][y - 1] != 'p' && (*map).copy[x][y - 1] != '1')
-			fill_left(map, x, y);
-		if ((*map).copy[x][y + 1] != 'p' && (*map).copy[x][y + 1] != '1')
-			fill_right(map, x, y);
-		x--;
-	}
+	if (copy[x][y + 1] == '0' || copy[x][y + 1] == 'E' || copy[x][y + 1] == 'C')
+		return (1);
+	if (copy[x][y - 1] == '0' || copy[x][y - 1] == 'E' || copy[x][y - 1] == 'C')
+		return (1);
+	if (copy[x + 1][y] == '0' || copy[x + 1][y] == 'E' || copy[x + 1][y] == 'C')
+		return (1);
+	if (copy[x - 1][y] == '0' || copy[x - 1][y] == 'E' || copy[x - 1][y] == 'C')
+		return (1);
+	return (0);
 }
 
-void	fill_down(t_map *map, size_t x, size_t y)
+static void	search_lost_p(t_map map)
 {
-	while ((*map).copy[x][y] != '1' && x != (map->rows))
+	size_t	x;
+	size_t	y;
+
+	x = 0;
+	y = 0;
+	while (map.copy[x])
 	{
-		(*map).copy[x][y] = 'p';
+		y = 0;
+		while (map.copy[x][y])
+		{
+			if (map.copy[x][y] == 'p')
+			{
+				if (is_surrounded_by_zeros(map.copy, x, y))
+				{
+					fill_paths(map, x, y);
+					search_lost_p(map);
+				}
+			}
+			y++;
+		}
 		x++;
 	}
-}
-
-void	fill_left(t_map *map, size_t x, size_t y)
-{
-	while ((*map).copy[x][y] != '1' && y > 0)
-	{
-		(*map).copy[x][y] = 'p';
-		if ((*map).copy[x + 1][y] != 'p' && (*map).copy[x + 1][y] != '1')
-			fill_down(map, x, y);
-		y--;
-	}
-}
-
-void	fill_right(t_map *map, size_t x, size_t y)
-{
-	while ((*map).copy[x][y] != '1' && y != (map->cols))
-	{
-		(*map).copy[x][y] = 'p';
-		if ((*map).copy[x + 1][y] != 'p' && (*map).copy[x + 1][y] != '1')
-			fill_down(map, x, y);
-		y++;
-	}
-}
-
-void	fill_paths(t_map map, size_t x, size_t y)
-{
-	while (map.copy[x][y] != '1' && y != (map.cols))
-	{
-		fill_down(&map, x, y);
-		fill_up(&map, x, y);
-		fill_left(&map, x, y);
-		fill_right(&map, x, y);
-		y++;
-	}
-
 }
 
 void	search_fill_free_path(t_map map, size_t rows, size_t cols)
@@ -113,13 +91,14 @@ void	search_fill_free_path(t_map map, size_t rows, size_t cols)
 		}
 		x++;
 	}
+	search_lost_p(map);
 }
 
 bool	check_path(t_map map)
 {
 	t_player	player;
-	size_t	x;
-	size_t	y;
+	size_t		x;
+	size_t		y;
 
 	locate_player(map.copy, &player);
 	fill_paths(map, player.x, player.y);
