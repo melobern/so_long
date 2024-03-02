@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/14 14:10:35 by mbernard          #+#    #+#             */
-/*   Updated: 2024/03/02 13:15:40 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/02 13:47:01 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,7 +104,7 @@ int	key_hook(int keysym, t_data *img)
 {
 	bool	can_move;
 
-	can_move = 1;
+	can_move = 0;
 	if (keysym == XK_Escape)
 		close_window(img);
 	else if (keysym == XK_W || keysym == XK_w)

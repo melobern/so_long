@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/01 13:44:09 by mbernard          #+#    #+#             */
-/*   Updated: 2024/03/02 10:25:42 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/02 13:41:48 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,14 +20,20 @@ static void	collect_or_leave(t_data *img, char c, size_t x, size_t y)
 		{
 			img->map.coins--;
 			img->map.grid[x][y] = '0';
-			printf("%lu coins left !!!\n", img->map.coins);
+			if (img->map.coins > 1)
+				printf("%lu pommes restantes !\n", img->map.coins);
+			else if (img->map.coins == 1)
+				printf("Plus qu'une pomme à ramasser !\n");
+			else
+				printf("Vous avez ramassé toutes les pommes !!!\n");
 		}
 	}
 	else if (c == 'E')
 	{
 		if (img->map.coins == 0)
 		{
-			ft_putendl_fd("Congratulations ! You finished the game !", 1);
+			ft_putendl_fd("Félicitations ! Vous avez fini le jeu !", 1);
+			// ft_putendl_fd("Congratulations ! You finished the game !", 1);
 			ft_putendl_fd("Sprites credits to Cub Noodles ;", 1);
 			ft_putendl_fd("https://cupnooble.itch.io/", 1);
 			close_window(img);
