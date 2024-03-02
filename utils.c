@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/28 17:15:47 by mbernard          #+#    #+#             */
-/*   Updated: 2024/03/01 16:40:47 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/02 13:13:49 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,12 @@ bool	ft_search_char(char letter, char *charset)
 		}
 	}
 	return (0);
+}
+
+void	free_tabs(char **map, char **copy)
+{
+	ft_free_tab(map);
+	ft_free_tab(copy);
 }
 
 void	ft_put_pos_nbr_fd(size_t n, int fd)
