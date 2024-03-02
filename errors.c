@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 10:37:40 by mbernard          #+#    #+#             */
-/*   Updated: 2024/03/01 23:02:19 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/02 13:13:47 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,7 @@ void	input_error(void)
 
 void	map_error(char **map, char **copy)
 {
-	ft_free_tab(map);
-	ft_free_tab(copy);
+	free_tabs(map, copy);
 	write(2, "Error\nInvalid map\n", 18);
 	exit(EXIT_FAILURE);
 }

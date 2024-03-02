@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/28 10:57:40 by mbernard          #+#    #+#             */
-/*   Updated: 2024/03/02 09:21:57 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/02 12:57:28 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ static bool	map_contains_0epc(t_map *map, char *tmp_map)
 			door++;
 		if (tmp_map[x] == 'P')
 			player++;
-		if (tmp_map[x + 1] && tmp_map[x] == '\n' && tmp_map[x +1] == '\n')
+		if (tmp_map[x + 1] && tmp_map[x] == '\n' && tmp_map[x + 1] == '\n')
 			return (0);
 		x++;
 	}
@@ -109,7 +109,7 @@ static bool	check_map(t_map *map, char *tmp_map)
 	while (map->grid[x + 1])
 	{
 		if (ft_strlen(map->grid[x + 1]) != cols)
-			return (0);	
+			return (0);
 		x++;
 	}
 	if (!check_walls_and_center(map->grid, cols, x))
@@ -124,18 +124,18 @@ static bool	check_map(t_map *map, char *tmp_map)
 
 void	trigger_checks(t_map *map, char *tmp_map)
 {
-		(*map).grid = ft_split(tmp_map, '\n');
-		(*map).copy = ft_split(tmp_map, '\n');
-		if (check_map(map, tmp_map) == 0)
-		{
-			free(tmp_map);
-			map_error(map->grid, map->copy);
-		}
-		if (check_path(map) == 0)
-		{
-			free(tmp_map);
-			map_error(map->grid, map->copy);
-		}
+	(*map).grid = ft_split(tmp_map, '\n');
+	(*map).copy = ft_split(tmp_map, '\n');
+	if (check_map(map, tmp_map) == 0)
+	{
+		free(tmp_map);
+		map_error(map->grid, map->copy);
+	}
+	if (check_path(map) == 0)
+	{
+		free(tmp_map);
+		map_error(map->grid, map->copy);
+	}
 }
 void	define_map(t_map *map, char *ber)
 {
@@ -143,6 +143,7 @@ void	define_map(t_map *map, char *ber)
 	size_t	size;
 	char	*tmp_map;
 
+	map->status = 0;
 	size = get_map_len(ber);
 	if (size < 17)
 		return ;
