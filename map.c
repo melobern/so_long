@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/28 10:57:40 by mbernard          #+#    #+#             */
-/*   Updated: 2024/03/01 23:01:32 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/02 09:21:57 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,20 +37,16 @@ static bool	map_contains_0epc(t_map *map, char *tmp_map)
 {
 	size_t	door;
 	size_t	player;
-	size_t	o;
 	size_t	x;
 
 	door = 0;
 	player = 0;
 	x = 0;
-	o = 0;
 	map->coins = 0;
 	while (tmp_map[x] && door < 2 && player < 2)
 	{
 		if (tmp_map[x] == 'C')
 			map->coins++;
-		if (tmp_map[x] == '0')
-			o++;
 		if (tmp_map[x] == 'E')
 			door++;
 		if (tmp_map[x] == 'P')
@@ -59,7 +55,7 @@ static bool	map_contains_0epc(t_map *map, char *tmp_map)
 			return (0);
 		x++;
 	}
-	return ((door == 1 && player == 1 && o != 0 && map->coins != 0));
+	return ((door == 1 && player == 1 && map->coins != 0));
 }
 
 static bool	check_lines(char **map, size_t x, size_t rows)

@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/14 14:10:35 by mbernard          #+#    #+#             */
-/*   Updated: 2024/03/01 23:31:17 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/02 10:24:52 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,8 @@
  *
  * verifier qu'il n y a pas deux \n a la suite : si \n et x + 1 == \n...
  * voir les cartes utilisees par chstein
- * hook tout court pour les controles afin de pouvoir rester appuye sur la touche sans que ca ne pose probleme
+
+	* hook tout court pour les controles afin de pouvoir rester appuye sur la touche sans que ca ne pose probleme
  * refresh la map a chaque mouvement
  */
 #include "so_long.h"
@@ -67,7 +68,7 @@ void	init_images(t_data *img)
 		|| !img->down || !img->left || !img->right)
 	{
 		ft_putstr_fd("Error\nMalloc error\n", 2);
-	//	write(2, "Error\nMallor error\n", 19);
+		//	write(2, "Error\nMallor error\n", 19);
 		close_window(img);
 	}
 }
@@ -83,19 +84,24 @@ void	init_map(t_data *img)
 		y = 0;
 		while (y <= img->map.cols)
 		{
-                  if (img->map.grid[x][y] == '1')
-                    mlx_put_image_to_window(img->mlx, img->win, img->wall, y * 80, x * 80);
-                  else if (img->map.grid[x][y] == '0')
-			mlx_put_image_to_window(img->mlx, img->win, img->empty, y * 80, x * 80);
-                  else if (img->map.grid[x][y] == 'C')
-			mlx_put_image_to_window(img->mlx, img->win, img->coll, y * 80, x * 80);
-                  else if (img->map.grid[x][y] == 'E')
-			mlx_put_image_to_window(img->mlx, img->win, img->exit, y * 80, x * 80);
-                  else if (img->map.grid[x][y] == 'P')
-			mlx_put_image_to_window(img->mlx, img->win, img->down, y * 80, x * 80);
-                  y++;
+			if (img->map.grid[x][y] == '1')
+				mlx_put_image_to_window(img->mlx, img->win, img->wall, y * 80, x
+					* 80);
+			else if (img->map.grid[x][y] == '0')
+				mlx_put_image_to_window(img->mlx, img->win, img->empty, y * 80,
+					x * 80);
+			else if (img->map.grid[x][y] == 'C')
+				mlx_put_image_to_window(img->mlx, img->win, img->coll, y * 80, x
+					* 80);
+			else if (img->map.grid[x][y] == 'E')
+				mlx_put_image_to_window(img->mlx, img->win, img->exit, y * 80, x
+					* 80);
+			else if (img->map.grid[x][y] == 'P')
+				mlx_put_image_to_window(img->mlx, img->win, img->down, y * 80, x
+					* 80);
+			y++;
 		}
-                x++;
+		x++;
 	}
 }
 
@@ -104,9 +110,9 @@ void	init_map(t_data *img)
 else if (img->map.grid[x][y] == 'UpUPUPUPUPU')
   mlx_put_image_to_window(img.mlx, img.win, img.up, 320, 0);
 else if (img->map.grid[x][y] == '1')
-      mlx_put_image_to_window(img.mlx, img.win, img.left, 480, 0);
+		mlx_put_image_to_window(img.mlx, img.win, img.left, 480, 0);
 else if (img->map.grid[x][y] == 'P')
-      mlx_put_image_to_window(img.mlx, img.win, img.right, 560, 0);
+		mlx_put_image_to_window(img.mlx, img.win, img.right, 560, 0);
  *
  */
 
@@ -131,7 +137,7 @@ int	key_hook(int keysym, t_data *img)
 	ft_putstr_fd("Moves :", 1);
 	ft_put_pos_nbr_fd(img->map.player.moves, 1);
 	ft_putstr_fd("\n", 1);
-	//write(1, "\n", 1);
+	// write(1, "\n", 1);
 	return (0);
 }
 
@@ -159,7 +165,6 @@ int	main(int ac, char **av)
 {
 	t_data	img;
 
-	//	int		x;
 	if (ac < 2 || !ends_by_ber(av[1]))
 		input_error();
 	img.map.status = 0;
@@ -167,22 +172,11 @@ int	main(int ac, char **av)
 	if (img.map.status == 0)
 		map_error(img.map.grid, img.map.copy);
 	img.map.player.moves = 0;
-		int x = 0;
-		while (img.map.grid[x])
-		{
-			printf("%s\n", img.map.grid[x]);
-			x++;
-		}
-		x = 0;
-		while (img.map.copy[x])
-		{
-			printf("%s\n", img.map.copy[x]);
-			x++;
-		}
 	img.mlx = mlx_init();
 	if (img.mlx == NULL)
 		return (1);
-	img.win = mlx_new_window(img.mlx, ((img.map.cols) * 80), ((img.map.rows + 1) * 80), "so_long");
+	img.win = mlx_new_window(img.mlx, ((img.map.cols) * 80), ((img.map.rows + 1)
+				* 80), "so_long");
 	if (img.win == NULL)
 	{
 		mlx_destroy_display(img.mlx);
@@ -203,6 +197,6 @@ int	main(int ac, char **av)
 	// mlx_destroy_window(img.mlx, img.win);
 	// mlx_destroy_display(img.mlx);
 	// mlx_destroy_image(mlx, &img);
-	//free(img.mlx);
+	// free(img.mlx);
 	return (0);
 }
