@@ -6,15 +6,14 @@
 #    By: mbernard <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/14 16:22:44 by mbernard          #+#    #+#              #
-#    Updated: 2024/03/03 16:16:00 by mbernard         ###   ########.fr        #
+#    Updated: 2024/03/03 16:23:34 by mbernard         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = cc
 NAME = so_long
-FLAGS = -lX11 -lXext -lz #-lGL lie avec openGL --> voir comment le faire avec le dossier donné
-CFLAGS = -MMD -MP -g3
-#-Wall -Wextra -Werror -MMD -MP -g3
+FLAGS = -lX11 -lXext -lz
+CFLAGS = -Wall -Wextra -Werror -MMD -MP -g3
 MKDIR = mkdir -p
 RMDIR = rm -rf
 
