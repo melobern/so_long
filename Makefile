@@ -6,7 +6,7 @@
 #    By: mbernard <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/14 16:22:44 by mbernard          #+#    #+#              #
-#    Updated: 2024/03/01 22:50:58 by mbernard         ###   ########.fr        #
+#    Updated: 2024/03/03 16:16:00 by mbernard         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,9 +19,11 @@ MKDIR = mkdir -p
 RMDIR = rm -rf
 
 # ---------------------------------- Sources --------------------------------- #
-vpath %c ./
+vpath %c src
 
-SRCS = so_long	errors free	utils	map	check_map	fill_paths	moves
+SRCS =	so_long	errors	utils	init		\
+	moves	players_moves				\
+	map	map_utils	check_map	fill_paths	
 # ---------------------------------- Repertories ----------------------------- #
 HEADER_DIR = header/
 OBJS_DIR = .objs/
