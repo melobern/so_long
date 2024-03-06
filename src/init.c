@@ -6,7 +6,7 @@
 /*   By: mbernard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/03 15:22:01 by mbernard          #+#    #+#             */
-/*   Updated: 2024/03/03 16:10:39 by mbernard         ###   ########.fr       */
+/*   Updated: 2024/03/04 11:11:10 by mbernard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,15 +90,17 @@ void	init_mlx_win(t_data *img)
 	size_t	cols;
 	size_t	rows;
 
-	cols = img->map.cols * 80;
-	rows = (img->map.rows + 1) * 80;
+	cols = img->map.cols;
+	rows = img->map.rows + 1;
+	if (rows > INT_MAX || rows < 3 || cols > 26843545)
+		map_error(img->map.grid, img->map.copy);
 	img->mlx = mlx_init();
 	if (img->mlx == NULL)
 	{
 		free_tabs(img->map.grid, img->map.copy);
 		malloc_error();
 	}
-	img->win = mlx_new_window(img->mlx, cols, rows, "so_long");
+	img->win = mlx_new_window(img->mlx, cols * 80, rows * 80, "so_long");
 	if (img->win == NULL)
 	{
 		mlx_destroy_display(img->mlx);
